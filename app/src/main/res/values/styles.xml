@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Travitix" parent="Theme.Travitix">
+        <item name="android:statusBarColor">@color/orange</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerCircle" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20000dp</item>
+    </style>
+
+
+
+</resources>

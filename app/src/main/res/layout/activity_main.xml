@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50ffffff"
+        android:id="@+id/travitixvideo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="center"
+        android:id="@+id/travitixlogs"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="200dp"
+        android:alpha="0.8"
+        android:src="@drawable/travitixlogo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/travitixn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="200dp"
+        android:alpha="0.8"
+        android:src="@drawable/travitixname" />
+
+
+    <Button
+        android:id="@+id/getstarted"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Getting Started >"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/orange"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="getstarted"
+        app:backgroundTint="@null"/>
+
+
+</RelativeLayout>
